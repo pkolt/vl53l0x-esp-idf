@@ -28,7 +28,7 @@ struct vl53l0x {
     bool measuring;
 };
 
-static const char *TAG = "VL53L0X_PORT";
+static const char *TAG = "VL53L0X";
 
 
 /**
