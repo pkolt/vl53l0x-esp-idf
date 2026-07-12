@@ -1,0 +1,9 @@
+version: "0.0.1"
+description: "ESP-IDF driver for the VL53L0X ToF sensor featuring configurable ranging profiles, continuous measurements, and GPIO interrupt support."
+url: "https://github.com/pkolt/vl53l0x-esp-idf"
+repository: "https://github.com/pkolt/vl53l0x-esp-idf.git"
+documentation: "https://github.com/pkolt/vl53l0x-esp-idf"
+issues: "https://github.com/pkolt/vl53l0x-esp-idf/issues"
+dependencies:
+  idf: ">=6.0"
+license: "MIT"
