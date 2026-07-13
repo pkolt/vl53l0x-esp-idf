@@ -1,0 +1,4 @@
+## IDF Component Manager Manifest File
+dependencies:
+  vl53l0x:
+    override_path: '../../../'
