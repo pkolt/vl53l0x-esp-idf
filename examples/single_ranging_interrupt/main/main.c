@@ -119,6 +119,8 @@ void app_main(void)
 
         ESP_ERROR_CHECK(vl53l0x_get_data(sensor, &data));
         print_data(&data);
+        // Delay for print
+        vTaskDelay(pdMS_TO_TICKS(500));
 
         ESP_ERROR_CHECK(vl53l0x_clear_interrupt_mask(sensor));
     }
