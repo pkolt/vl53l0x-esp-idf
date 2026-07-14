@@ -4,6 +4,13 @@ url: "https://github.com/pkolt/vl53l0x-esp-idf"
 repository: "https://github.com/pkolt/vl53l0x-esp-idf.git"
 documentation: "https://github.com/pkolt/vl53l0x-esp-idf"
 issues: "https://github.com/pkolt/vl53l0x-esp-idf/issues"
+examples:
+  - path: ./examples/continuous_ranging
+  - path: ./examples/continuous_timed
+  - path: ./examples/manual_polling
+  - path: ./examples/single_ranging
+  - path: ./examples/single_ranging_interrupt
+  - path: ./examples/threshold_interrupt
 dependencies:
   idf: ">=6.0"
 license: "MIT"
